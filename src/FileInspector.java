@@ -44,7 +44,7 @@ public class FileInspector
                     numberOfChars = numberOfChars + line.length();
                 }
 
-                System.out.println("File successfully read!");
+                System.out.println("File " + target.getFileName() + " successfully read!");
                 System.out.println("The text file has " + numberOfLines + " lines");
                 System.out.println("The text file has " + numberOfWords + " words");
                 System.out.println("The text file has " + numberOfChars + " characters");
